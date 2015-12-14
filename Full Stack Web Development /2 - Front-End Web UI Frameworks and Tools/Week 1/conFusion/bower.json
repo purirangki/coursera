@@ -1,0 +1,27 @@
+{
+  "name": "conFusion",
+  "version": "1.0.0",
+  "homepage": "https://github.com/purirangki/coursera",
+  "authors": [
+    "praburangki <praburangki@gmail.com>"
+  ],
+  "description": "Website for an awesome restaurant",
+  "main": "index.html",
+  "keywords": [
+    "conFusion",
+    "Fusion",
+    "Restaurant"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "font-awesome": "~4.4.0"
+  }
+}

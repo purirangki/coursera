@@ -1,0 +1,35 @@
+TABLE
+
+font - multiple families, size, weight, line-height
+width - don't take up the entire space (75 - 90 %)
+margin - center the table
+
+
+TABLE HEADING
+
+change background color - gradient
+
+add a border :
+    - round only the top two corners
+    - make the bottom border thicker
+
+add at least one other property -
+
+
+TABLE ROWS
+
+set the opacity to a value of about .8
+
+left align the first column, center the other two
+
+set the opacity to a value of 1 when the element hovered upon
+
+
+TD
+
+change the padding, font color, background color, and set the border radius to 2px
+
+use text shadow
+
+
+

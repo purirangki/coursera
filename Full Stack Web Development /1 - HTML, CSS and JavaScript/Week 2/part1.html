@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body onload="do_game()">
+
+<script>
+    var colors = ['blue', 'cyan', 'gold', 'gray', 'green', 'magenta', 'orange', 'red', 'white', 'yellow'];
+    var target, input, input_txt, finished = false, guesses = 0;
+
+    function do_game() {
+        target = colors[Math.floor(Math.random() * colors.length)];
+        alert(target);
+        while(!finished) {
+            input_txt = prompt('Guess the color : ' + colors.join(', '));
+            if (input_txt == target) break;
+        }
+    }
+</script>
+
+</body>
+</html>

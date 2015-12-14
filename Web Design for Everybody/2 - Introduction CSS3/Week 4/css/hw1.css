@@ -1,0 +1,40 @@
+table {
+    font-family: "Century Gothic", Helvetica;
+    font-size: 110%;
+    font-weight: lighter;
+    line-height: 120%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+th {
+    background: -moz-linear-gradient(top,  #c9de96 0%, #8ab66b 44%, #398235 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #c9de96 0%,#8ab66b 44%,#398235 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #c9de96 0%,#8ab66b 44%,#398235 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+    border: 2px solid black;
+    border-bottom: 5px solid black;
+    border-radius: 10px 10px 0 0;
+    text-shadow: 2px 2px #FFF;
+}
+
+tr {
+    opacity: 0.7;
+    /*text-align: center;*/
+}
+
+tr:hover {
+    opacity: 1;
+}
+
+td:first-child {
+    text-align: left;
+}
+
+td {
+    text-align: center;
+    border-radius: 2px;
+    background: #93ea1b;
+    color: #4f5254;
+    text-shadow: 2px 2px #FFF;
+}
